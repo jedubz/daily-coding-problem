@@ -23,7 +23,7 @@ You can modify the input array in-place.
   <dd>The running time of an algorithim increases linearly with the size of the input. The time complexity is O(n).</dd>
 
   <dt>Constant Space</dt>
-  <dd>Memory used in an algorithim does not depends on the size of the input.</dd>
+  <dd>Memory used in an algorithim does not depend on the size of the input.</dd>
 </dl>
 
 ### Rules:
