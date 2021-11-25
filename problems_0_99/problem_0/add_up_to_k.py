@@ -1,12 +1,18 @@
-
-
 def add_two_numbers_in_list(arr, k):
 
-   for i in arr:
-       n = k-i
-       if (n in arr):
-           return [i, n]
+    for i in arr:
+        n = k-i
+        if (n in arr):
+            return True
+    return False
 
-result = add_two_numbers_in_list([10, 15, 3, 7], 17)
 
-print(result)
+test_case_1_arg0 = [10, 15, 3, 7]
+test_case_1_arg1 = 17
+
+expected = True
+
+actual = add_two_numbers_in_list(test_case_1_arg0, test_case_1_arg1)
+
+assert actual == expected
+print("Passed")
